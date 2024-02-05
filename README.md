@@ -13,6 +13,10 @@ During compilation, the BUFFER SIZE is specified, allowing flexibility, but if n
 
 ## Description
 
+<p align="center">
+  <img src="https://www.codequoi.com/wp-content/uploads/2022/10/file_descriptors_en.drawio.png" alt="FIle Descriptor Schema"><br>
+</p>
+
 ```bash
 char *get_next_line(int fd);
 ```
