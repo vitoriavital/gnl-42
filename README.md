@@ -48,7 +48,7 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=your_chosen_buffer_size your_source_fil
 ```
 
 
-## Bonus
+## Bonus Features
 In addition to the standard functionality, the get_next_line function has been extended to manage multiple file descriptors simultaneously. It is now capable of reading from a different file descriptor with each call, ensuring that the reading thread of each file descriptor is maintained without interference.
 
 This enhanced feature ensures that the function can read from distinct file descriptors in a multi-threaded fashion, without compromising the integrity of each reading thread. Files marked with "_bonus" denote an upgraded version that provides this enhanced functionality for a more versatile usage scenario.
