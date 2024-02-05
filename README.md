@@ -29,15 +29,20 @@ git clone https://github.com/vitoriavital/get-next-line.git
 ## Usage
 
 1. Include the get_next_line.h header file in your C program:
+```bash
 #include "get_next_line.h"
-2. Compile your program with the get_next_line.c file:
+```
+
+3. Compile your program with the get_next_line.c file:
 ```bash
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=your_chosen_buffer_size your_source_files.c -o your_output_binary
 ```
+
 3. Run your compiled program:
 ```bash
 ./your_output_binary
 ```
+
 
 ## Bonus
 In addition to the standard functionality, the get_next_line function has been extended to manage multiple file descriptors simultaneously. It is now capable of reading from a different file descriptor with each call, ensuring that the reading thread of each file descriptor is maintained without interference.
